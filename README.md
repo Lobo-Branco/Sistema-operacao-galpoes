@@ -1,82 +1,72 @@
-# 🏢 Sistema Integrado de Gestão Operacional & BPO (Case de Estudo)
+# 🏢 Sistema Integrado de Gestão Operacional & BPO (AI-Driven Development)
 
+![AI-Driven](https://img.shields.io/badge/AI_Driven_Development-000000?style=for-the-badge&logo=ai&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF9800?style=for-the-badge)
+![Gemini API](https://img.shields.io/badge/Google_Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![UI/UX](https://img.shields.io/badge/UI/UX-Dark_Theme-000000?style=for-the-badge)
 
-> 🔒 **Nota de Confidencialidade:** Este é um repositório de portfólio focado em arquitetura de software, UI/UX e regras de negócio. O código-fonte é proprietário e não está disponível publicamente (NDA). As imagens contêm dados ofuscados para preservar informações sensíveis corporativas.
+> 🔒 **Nota de Confidencialidade:** Este é um repositório de portfólio focado em arquitetura de software, Integração de IA e regras de negócio corporativas. O código-fonte é proprietário (NDA). As imagens contêm dados ofuscados para preservar informações sensíveis.
 
 ## 📌 O Desafio
-Operações de processamento de documentos (BPO) lidam com volumes massivos de dados, gargalos logísticos e a necessidade de microgerenciamento de equipes. O desafio era unificar o acompanhamento de metas, auditoria de galpão, controle de ponto, fechamento de produção e emissão de hardware (impressoras térmicas) em uma **única plataforma web centralizada, ágil e à prova de falhas humanas**.
+Operações de processamento de documentos (BPO) lidam com volumes massivos de dados, gargalos logísticos e a necessidade de microgerenciamento de equipes. O desafio era unificar o acompanhamento de metas, auditoria de galpão, controle de ponto e emissão de hardware (impressoras térmicas) em uma **única plataforma web centralizada, ágil e à prova de falhas humanas**.
 
-## 💡 A Solução
-Desenvolvi uma aplicação full-stack utilizando Python com foco em alta performance, análise de dados e experiência do usuário (UX). O sistema elimina planilhas fragmentadas e entrega "Inteligência Operacional em Tempo Real".
+## 💡 A Solução (Construída com AI-First)
+Atuando como **Arquiteto de Soluções e Prompt Engineer**, orquestrei o desenvolvimento desta aplicação full-stack (Python/Streamlit) utilizando metodologias de **AI-Driven Development**. Através de engenharia de prompts avançada, guiei Modelos de Linguagem (LLMs) para estruturar a arquitetura, escrever lógicas complexas de manipulação de dados (Pandas) e criar uma interface altamente responsiva. O resultado é um sistema que elimina planilhas e entrega "Inteligência Operacional em Tempo Real".
+
+---
+
+## 🤖 Engenharia de IA & Metodologia
+O grande diferencial deste projeto não é apenas o código, mas **como** ele foi gerado e integrado com Inteligência Artificial:
+
+* **Desenvolvimento Guiado por IA:** Tradução de regras de negócio complexas de BPO para prompts estruturados, permitindo o desenvolvimento rápido de módulos de faturamento, cálculo de SLAs e integração de hardware (motor de impressão vetorial Zebra).
+* **LLM Integration (Google Gemini):** Implementação de um módulo laboratorial consumindo a API do Gemini. Substituição de buscas tradicionais por **Raciocínio Semântico**: a IA analisa os inputs do usuário, cruza com a Tabela de Temporalidade Documental (TTD) baseada no CONARQ e devolve pareceres analíticos justificados.
+* **Computer Vision (EasyOCR + IA):** Implementação de fluxo de leitura de imagem da capa de processos via área de transferência (Ctrl+V), onde a IA extrai o contexto textual e sugere a classificação processual automaticamente.
+* **Troubleshooting Dinâmico:** Uso contínuo de IA generativa para debug de erros complexos, injeção de CSS para customização avançada de UI e otimização de performance de cache.
 
 ---
 
 ## 🚀 Funcionalidades Principais (Módulos)
 
 ### 1. Painel de Controle (Real-Time Dashboard)
-Monitoramento ao vivo da "saúde" da operação. O gestor não precisa esperar o fim do dia para tomar decisões críticas.
+Monitoramento ao vivo da "saúde" da operação. 
 * **Métricas Dinâmicas:** Acompanhamento do Total Indexado, Eficiência Atual (%) e Volume faltante para atingir a meta do dia.
-* **Visão por Esteira:** Acompanhamento detalhado do volume por etapa (Preparação, Controle, Guarda, Digitalização).
 * **Gestão de Pessoas Integrada:** Painel lateral cruzando ausências, férias e atestados, permitindo remanejamento imediato da equipe.
 
 ![Painel de Controle](1-dashboard.jpeg)
 
 ---
 
+
 ### 2. Gamificação e Ranking de Desempenho
-Transformando pressão operacional em engajamento amigável e baseado em dados.
-* **Pódio Dinâmico:** Destaque automático (Top 3 e Top 1 por esteira) para os colaboradores mais produtivos.
-* **Gestão de Baixo Desempenho:** Alertas visuais automatizados (Métrica Crítica / Alerta) para identificar gargalos operacionais e permitir feedback rápido do supervisor.
+Transformando pressão operacional em engajamento baseado em dados.
+* **Pódio Dinâmico e Alertas:** Destaque automático para os colaboradores mais produtivos e alertas visuais (Métrica Crítica) para identificar gargalos em tempo real.
 
 ![Ranking e Desempenho](2-ranking.jpeg)
 
 ---
 
-### 3. Fechamento Diário e Balanceamento
-Consolidação inteligente de dados para faturamento e controle de SLAs.
-* **Gráficos e Resumos:** Visualização gráfica da produção total por setor.
-* **Detalhamento Balanceado:** Cruzamento automático de horas trabalhadas versus volume produzido, gerando o percentual de eficiência individual exato.
-* **Exportação Prática:** Integração com um clique para copiar/exportar todos os dados já mastigados para relatórios de diretoria.
-
-![Fechamento Diário](5-fechamento.jpeg)
-
----
-
-### 4. Auditoria e Pendências de Lançamento (Leakage)
-Controle rigoroso de horas não faturadas ou esquecidas.
-* **Radar de Pendências:** O sistema mapeia os horários da operação e cruza com a produção declarada. 
-* **Ação Direta:** Lista automaticamente quem "esqueceu" de lançar horas (ex: *Existem 89 horários não lançados por 21 pessoas*), exigindo justificativa diretamente na plataforma, fechando as brechas de produtividade.
+### 3. Fechamento Diário e Auditoria de Pendências (Leakage)
+Consolidação inteligente de dados para faturamento e controle rígido de SLAs.
+* **Detalhamento Balanceado:** Cruzamento de horas trabalhadas versus volume produzido, gerando a eficiência individual.
+* **Radar de Horas Esquecidas:** Mapeamento de buracos na produção, exigindo justificativa obrigatória na plataforma para estancar vazamentos de faturamento.
 
 ![Auditoria de Pendências](3-pendencias.jpeg)
 
 ---
 
-### 5. Integração de Hardware (Motor de Impressão Zebra)
+### 4. Integração de Hardware (Motor de Impressão Zebra)
 A ponte robusta entre o software e o chão de fábrica (Galpão).
-* **Motor Vetorial:** Geração de PDFs em tempo real com código de barras, perfeitamente dimensionados para **impressoras térmicas Zebra**.
-* **Fila Sequencial Inteligente:** Memória global que puxa o último lote impresso e gera a numeração contínua, evitando duplicidade em caixas físicas.
-* **Trava de Segurança Térmica:** Algoritmo que impõe pausas automatizadas para evitar o superaquecimento e a queima da cabeça de impressão.
+* **Fila Sequencial Inteligente e Segura:** Geração de PDFs em tempo real com código de barras, com memória global de numeração e trava de segurança para evitar queima da cabeça de impressão térmica após volume excessivo.
 
 ![Impressão de Lotes](4-impressao.jpeg)
 
 ---
 
-## 🛠️ Arquitetura e Tecnologias Utilizadas
-A arquitetura foi projetada para lidar com requisições assíncronas e grande volume de dados:
-* **Frontend/UI:** Streamlit com injeção de CSS customizado (Dark Theme responsivo, tooltips, cards flutuantes).
-* **Backend:** Python 3.x.
-* **Processamento de Dados (ETL):** Pandas para manipulação massiva de dataframes, limpeza de strings e cálculos de eficiência.
-* **Visão Computacional & IA:** EasyOCR para leitura de imagens e integração via API com o **Google Gemini (LLM)** para análise semântica e classificação documental avançada.
-* **Integrações Externas:** API do Google (Sheets/Drive) para sincronização de base de dados em nuvem sem delay.
-
 ## 📈 Impacto no Negócio
 * **Redução de SLA de Gestão:** Decisões de alocação de equipe que demoravam horas agora são tomadas em segundos.
-* **Zero Perda Físico-Digital:** O motor de impressão mitigou 100% da duplicidade de lotes colados nas caixas.
-* **Recuperação de Receita:** O módulo de pendências reduziu o "vazamento" de horas não lançadas, garantindo que toda a produção seja faturada.
+* **Aumento de Receita:** O módulo de pendências reduziu o vazamento de horas não lançadas, garantindo o faturamento correto da produção.
+* **Modernização Tecnológica:** Inserção de IA Generativa no dia a dia da operação de BPO, elevando o nível de análise da equipe de base.
 
 ---
-*Arquitetado e Desenvolvido por **Bruno Queiros**.*
+*Arquitetado, Orquestrado e Desenvolvido por **Bruno Queiros** usando metodologias AI-First.*
