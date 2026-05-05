@@ -23,7 +23,7 @@ Monitoramento ao vivo da "saúde" da operação. O gestor não precisa esperar o
 * **Visão por Esteira:** Acompanhamento detalhado do volume por etapa (Preparação, Controle, Guarda, Digitalização).
 * **Gestão de Pessoas Integrada:** Painel lateral cruzando ausências, férias e atestados, permitindo remanejamento imediato da equipe.
 
-![Painel de Controle](1-dashboard.png)
+![Painel de Controle](1-dashboard.jpeg)
 
 ---
 
@@ -32,7 +32,7 @@ Transformando pressão operacional em engajamento amigável e baseado em dados.
 * **Pódio Dinâmico:** Destaque automático (Top 3 e Top 1 por esteira) para os colaboradores mais produtivos.
 * **Gestão de Baixo Desempenho:** Alertas visuais automatizados (Métrica Crítica / Alerta) para identificar gargalos operacionais e permitir feedback rápido do supervisor.
 
-![Ranking e Desempenho](2-ranking.png)
+![Ranking e Desempenho](2-ranking.jpeg)
 
 ---
 
@@ -42,7 +42,7 @@ Consolidação inteligente de dados para faturamento e controle de SLAs.
 * **Detalhamento Balanceado:** Cruzamento automático de horas trabalhadas versus volume produzido, gerando o percentual de eficiência individual exato.
 * **Exportação Prática:** Integração com um clique para copiar/exportar todos os dados já mastigados para relatórios de diretoria.
 
-![Fechamento Diário](5-fechamento.png)
+![Fechamento Diário](5-fechamento.jpeg)
 
 ---
 
@@ -51,7 +51,7 @@ Controle rigoroso de horas não faturadas ou esquecidas.
 * **Radar de Pendências:** O sistema mapeia os horários da operação e cruza com a produção declarada. 
 * **Ação Direta:** Lista automaticamente quem "esqueceu" de lançar horas (ex: *Existem 89 horários não lançados por 21 pessoas*), exigindo justificativa diretamente na plataforma, fechando as brechas de produtividade.
 
-![Auditoria de Pendências](3-pendencias.png)
+![Auditoria de Pendências](3-pendencias.jpeg)
 
 ---
 
@@ -61,7 +61,7 @@ A ponte robusta entre o software e o chão de fábrica (Galpão).
 * **Fila Sequencial Inteligente:** Memória global que puxa o último lote impresso e gera a numeração contínua, evitando duplicidade em caixas físicas.
 * **Trava de Segurança Térmica:** Algoritmo que impõe pausas automatizadas para evitar o superaquecimento e a queima da cabeça de impressão.
 
-![Impressão de Lotes](4-impressao.png)
+![Impressão de Lotes](4-impressao.jpeg)
 
 ---
 
